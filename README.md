@@ -11,5 +11,5 @@ https://marcochiu.github.io/20250704_1/story.html
 產品列表
 https://marcochiu.github.io/20250704_1/product.html
 
-產品明細
+產品詳情
 https://marcochiu.github.io/20250704_1/productdetails.html
