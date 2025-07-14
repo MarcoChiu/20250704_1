@@ -9,7 +9,7 @@ https://chalk-freedom-ec6.notion.site/2236ab47eb48802c9f4bd60b0b70ef01?pvs=74
 https://marcochiu.github.io/20250704_1/story.html
 
 產品列表
-https://marcochiu.github.io/20250704_1/product.html
+https://marcochiu.github.io/20250704_1/products.html
 
 產品詳情
-https://marcochiu.github.io/20250704_1/productdetails.html
+https://marcochiu.github.io/20250704_1/productdetail.html

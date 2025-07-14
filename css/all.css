@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 /* 通用 */
 :root {
@@ -7,7 +8,10 @@
     --text-neutral-300: #DEE2E6;
     --text-neutral-600: #6C757D;
     --text-neutral-900: #212529;
+
     --bg-Primary-100: #F5FEE7;
+    --bg-Primary-200:#E8FEC5;
+    --bg-Primary-300: #C0FA73;
     --bg-neutral-100: #F8F9FA;
 
     --row-margin: -12px;
@@ -51,6 +55,12 @@ img {
     font-weight: 700;
 }
 
+.h6 {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
 /* 字體顏色 */
 .text-neutral-white {
     color: var(--text-neutral-white);
@@ -76,21 +86,21 @@ img {
     background-color: var(--bg-Primary-100);
 }
 
+.bg-Primary-200 {
+    background-color: var(--bg-Primary-200);
+}
+
 .bg-neutral-100 {
     background-color: var(--bg-neutral-100);
 }
 
-/* 間距 */
-.ptb-64 {
-    padding-top: 64px;
-    padding-bottom: 64px;
+.text-center{
+    text-align: center;
 }
 
-.ptb-8 {
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
+/* 間距  */
 
+/* 全部 */
 .p-32 {
     padding: 32px;
 }
@@ -99,14 +109,50 @@ img {
     padding: 12px;
 }
 
-.pr-8 {
-    padding-right: 8px;
+.pt-32{
+    padding-top: 32px;
 }
 
+/* 上下助教是py */
+
+.ptb-64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.ptb-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.ptb-24 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.ptb-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.ptb-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.ptb-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* 下方 */
 .pb-48 {
     padding-bottom: 48px;
 }
 
+.mb-64 {
+    margin-bottom: 64px;
+}
 
 .mb-48 {
     margin-bottom: 48px;
@@ -128,15 +174,31 @@ img {
     margin-bottom: 4px;
 }
 
-.mr-40{
-    margin-right: 40px;
-}
-
-.mr-48{
+/* 右邊助教是pe */ 
+.mr-48 {
     margin-right: 48px;
 }
 
-/* flex */
+.mr-40 {
+    margin-right: 40px;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.mr-12 {
+    margin-right: 12px;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
+ 
+
+
+/* flex 格線模式 */
 .d-flex {
     display: flex;
 }
@@ -163,6 +225,12 @@ img {
     margin-left: var(--row-margin);
     margin-right: var(--row-margin);
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .col-1 {
     padding-left: var(--col-padding);
@@ -234,4 +302,22 @@ img {
     padding-left: var(--col-padding);
     padding-right: var(--col-padding);
     width: calc(100% / 12 * 12)
+}
+
+/* 按鈕 */
+.btn {
+    border-radius: 4px;
+    /*二個值，【上下】採用同一值，【左右】採用同一值*/
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-dark{
+    background-color: var(--text-neutral-900);
+    color: var(--text-neutral-white);
 }
