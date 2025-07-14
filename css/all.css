@@ -14,7 +14,10 @@
     --col-padding: 12px;
 }
 
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* 盒模型多少寬度就算多少 */
 *,

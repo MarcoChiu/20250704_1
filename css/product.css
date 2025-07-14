@@ -19,15 +19,7 @@ a{
     font-weight: 500;
 }
 
-/* a:hover {
-    color: var(--text-neutral-white);
-    background-color: var(--text-Primary-400);
-} */
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 /* 先寫大的尺寸再寫小的 */
 @media (max-width:992px) {}
