@@ -4,3 +4,12 @@ https://www.figma.com/design/WQh5XkQtQYB0yhIGx5wnMB/%E5%85%AD%E8%A7%92%EF%BD%9C%
 
 講義連結
 https://chalk-freedom-ec6.notion.site/2236ab47eb48802c9f4bd60b0b70ef01?pvs=74
+
+品牌故事
+https://marcochiu.github.io/20250704_1/story.html
+
+產品列表
+https://marcochiu.github.io/20250704_1/product.html
+
+產品明細
+https://marcochiu.github.io/20250704_1/productdetails.html
