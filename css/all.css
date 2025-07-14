@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 通用 */
+:root {
+    --text-Primary-400: #57A203;
+    --text-neutral-white: #ffffff;
+    --text-neutral-300: #DEE2E6;
+    --text-neutral-600: #6C757D;
+    --text-neutral-900: #212529;
+    --bg-Primary-100: #F5FEE7;
+    --bg-neutral-100: #F8F9FA;
+
+    --row-margin: -12px;
+    --col-padding: 12px;
+}
+
+
+
 /* 盒模型多少寬度就算多少 */
 *,
 *::before,
@@ -5,6 +23,61 @@
     box-sizing: border-box;
 }
 
+/* 標題 */
+.h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h3 {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h4 {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h5 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+/* 字體顏色 */
+.text-neutral-white {
+    color: var(--text-neutral-white);
+}
+
+.text-neutral-300 {
+    color: var(--text-neutral-300);
+}
+
+.text-neutral-600 {
+    color: var(--text-neutral-600);
+}
+
+.text-neutral-900 {
+    color: var(--text-neutral-900);
+}
+
+.text-Primary-400 {
+    color: var(--text-Primary-400);
+}
+
+.bg-Primary-100 {
+    background-color: var(--bg-Primary-100);
+}
+
+.bg-neutral-100 {
+    background-color: var(--bg-neutral-100);
+}
+
+/* 間距 */
 .ptb-64 {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -17,6 +90,10 @@
 
 .p-32 {
     padding: 32px;
+}
+
+.p-12 {
+    padding: 12px;
 }
 
 .pr-8 {
@@ -48,4 +125,110 @@
     margin-bottom: 4px;
 }
 
- 
+.mr-40{
+    margin-right: 40px;
+}
+
+.mr-48{
+    margin-right: 48px;
+}
+
+/* flex */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-cneter {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-wrep {
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: var(--row-margin);
+    margin-right: var(--row-margin);
+}
+
+.col-1 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12)
+}
+
+.col-2 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 2)
+}
+
+.col-3 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 3)
+}
+
+.col-4 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 4)
+}
+
+.col-5 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 5)
+}
+
+.col-6 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 6)
+}
+
+.col-7 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 7)
+}
+
+.col-8 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 8)
+}
+
+.col-9 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 9)
+}
+
+.col-10 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 10)
+}
+
+.col-11 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 11)
+}
+
+.col-12 {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+    width: calc(100% / 12 * 12)
+}
