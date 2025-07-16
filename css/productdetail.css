@@ -1,0 +1,24 @@
+.container {
+    /* 助教計算 1920-312-312 */
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+a {
+    color: var(--text-neutral-900);
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+}
+
+/* Page */
+.product-row {  
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.product-col {
+    width: calc(100% /12 * 6);
+    padding-left: 4px;
+    padding-right: 4px;
+}

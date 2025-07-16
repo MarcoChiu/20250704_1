@@ -10,12 +10,20 @@
     --text-neutral-900: #212529;
 
     --bg-Primary-100: #F5FEE7;
-    --bg-Primary-200:#E8FEC5;
+    --bg-Primary-200: #E8FEC5;
     --bg-Primary-300: #C0FA73;
     --bg-neutral-100: #F8F9FA;
 
     --row-margin: -12px;
     --col-padding: 12px;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: var(--text-neutral-900);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
 }
 
 img {
@@ -94,11 +102,17 @@ img {
     background-color: var(--bg-neutral-100);
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 /* 間距  */
+
+/* 搭配col- */
+.p-default {
+    padding-left: var(--col-padding);
+    padding-right: var(--col-padding);
+}
 
 /* 全部 */
 .p-32 {
@@ -109,7 +123,7 @@ img {
     padding: 12px;
 }
 
-.pt-32{
+.pt-32 {
     padding-top: 32px;
 }
 
@@ -170,11 +184,15 @@ img {
     margin-bottom: 12px;
 }
 
+.mb-12 {
+    margin-bottom: 8px;
+}
+
 .mb-4 {
     margin-bottom: 4px;
 }
 
-/* 右邊助教是pe */ 
+/* 右邊助教是pe */
 .mr-48 {
     margin-right: 48px;
 }
@@ -195,8 +213,6 @@ img {
     margin-right: 8px;
 }
 
- 
-
 
 /* flex 格線模式 */
 .d-flex {
@@ -215,7 +231,7 @@ img {
     align-items: center;
 }
 
-.flex-wrep {
+.flex-wrap {
     flex-wrap: wrap;
 }
 
@@ -233,74 +249,60 @@ img {
 
 
 .col-1 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
     width: calc(100% / 12)
 }
 
 .col-2 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
     width: calc(100% / 12 * 2)
 }
 
 .col-3 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
+
     width: calc(100% / 12 * 3)
 }
 
 .col-4 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
+
     width: calc(100% / 12 * 4)
 }
 
 .col-5 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
+
     width: calc(100% / 12 * 5)
 }
 
 .col-6 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
+
     width: calc(100% / 12 * 6)
 }
 
 .col-7 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
+
     width: calc(100% / 12 * 7)
 }
 
 .col-8 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
+
     width: calc(100% / 12 * 8)
 }
 
 .col-9 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
+
     width: calc(100% / 12 * 9)
 }
 
 .col-10 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
+
     width: calc(100% / 12 * 10)
 }
 
 .col-11 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
+
     width: calc(100% / 12 * 11)
 }
 
 .col-12 {
-    padding-left: var(--col-padding);
-    padding-right: var(--col-padding);
+
     width: calc(100% / 12 * 12)
 }
 
@@ -317,7 +319,7 @@ img {
     background-color: transparent;
 }
 
-.btn-dark{
+.btn-dark {
     background-color: var(--text-neutral-900);
     color: var(--text-neutral-white);
 }
