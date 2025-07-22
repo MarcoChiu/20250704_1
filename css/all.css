@@ -233,6 +233,7 @@ img {
 }
 
 /* 右邊助教是pe */
+
 .mr-48 {
     margin-right: 48px;
 }
@@ -258,6 +259,11 @@ img {
 .d-flex {
     display: flex;
 }
+
+.d-block {
+    display: block;
+}
+
 
 .justify-content-between {
     justify-content: space-between;
