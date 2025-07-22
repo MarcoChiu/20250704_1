@@ -30,6 +30,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
+    vertical-align: middle;
 }
 
 
@@ -44,6 +45,12 @@ img {
 /* 標題 */
 .h1 {
     font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h2 {
+    font-size: 32px;
     line-height: 1.2;
     font-weight: 700;
 }
@@ -176,7 +183,7 @@ img {
     padding-bottom: 8px;
 }
 
-.pr-8{
+.pr-8 {
     padding-right: 8px;
 }
 
@@ -214,6 +221,10 @@ img {
 }
 
 .mb-12 {
+    margin-bottom: 8px;
+}
+
+.mb-8 {
     margin-bottom: 8px;
 }
 
@@ -363,7 +374,7 @@ img {
 }
 
 .btn-light {
-    
+
     border: 1px solid var(--text-neutral-900);
 }
 
