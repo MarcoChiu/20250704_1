@@ -30,6 +30,8 @@ a{
     font-weight: 500;
 }
 
+
+
 /* 先寫大的尺寸再寫小的 */
 @media (max-width:992px) {}
 

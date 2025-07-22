@@ -378,3 +378,7 @@ img {
     color: var(--text-neutral-600);
     font-weight: 500;
 }
+
+.fotter-line {
+    border-bottom: 1px solid var(--text-neutral-300);
+}
